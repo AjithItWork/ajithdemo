@@ -1,0 +1,12 @@
+C:\ATC_Project\ATS_Webassembly\src\Shared\bin\Debug\net6.0\FSH.WebApi.Shared.xml
+C:\ATC_Project\ATS_Webassembly\src\Shared\bin\Debug\net6.0\FSH.WebApi.Shared.deps.json
+C:\ATC_Project\ATS_Webassembly\src\Shared\bin\Debug\net6.0\FSH.WebApi.Shared.dll
+C:\ATC_Project\ATS_Webassembly\src\Shared\bin\Debug\net6.0\FSH.WebApi.Shared.pdb
+C:\ATC_Project\ATS_Webassembly\src\Shared\obj\Debug\net6.0\Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\ATC_Project\ATS_Webassembly\src\Shared\obj\Debug\net6.0\Shared.AssemblyInfoInputs.cache
+C:\ATC_Project\ATS_Webassembly\src\Shared\obj\Debug\net6.0\Shared.AssemblyInfo.cs
+C:\ATC_Project\ATS_Webassembly\src\Shared\obj\Debug\net6.0\Shared.csproj.CoreCompileInputs.cache
+C:\ATC_Project\ATS_Webassembly\src\Shared\obj\Debug\net6.0\FSH.WebApi.Shared.dll
+C:\ATC_Project\ATS_Webassembly\src\Shared\obj\Debug\net6.0\refint\FSH.WebApi.Shared.dll
+C:\ATC_Project\ATS_Webassembly\src\Shared\obj\Debug\net6.0\FSH.WebApi.Shared.pdb
+C:\ATC_Project\ATS_Webassembly\src\Shared\obj\Debug\net6.0\ref\FSH.WebApi.Shared.dll

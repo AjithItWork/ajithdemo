@@ -1,0 +1,168 @@
+﻿@page "/Customer/addcustomer"
+@using Microsoft.AspNetCore.Components.Forms;
+@using System.Net.Http;
+
+
+<style>
+    .subtitle {
+        font-weight: bold;
+        font-size: 1rem;
+    }
+
+    .Title {
+        font-weight: 600;
+    }
+
+    .TopTitle {
+        font-size: 20px;
+        padding-top: 10px;
+        Font-weight: 600;
+        padding-left: 50px;
+        padding-top: 15px;
+        ;
+    }
+
+    .HeaderCard {
+        box-shadow: 0px 2px 08px rgb(43, 43, 43)
+    }
+
+        .HeaderCard:hover {
+            box-shadow: 2px 4px 10px rgb(0, 0, 0);
+        }
+
+    .headtop {
+        display: flex;
+    }
+
+    .head {
+        position: sticky;
+        top: 250px;
+    }
+
+    .centered {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Adjust as needed */
+    }
+</style>
+@if (!_loaded)
+{
+    <div class="centered">
+        <MudProgressCircular Size="Size.Large" Color="MudBlazor.Color.Primary" Indeterminate="true" />
+    </div>
+}
+else
+{
+
+    <MudForm Model="@_createCustomerRequest" style="margin-bottom:50px; overflow-x:hidden;overflow-y:auto;" OnValidSubmit="SaveAsync">
+
+
+
+
+        <MudCard Class="rounded-lg HeaderCard" Style=" position:sticky; min-height: 120px;margin-bottom:10rem">
+            <MudGrid>
+                <MudItem xs="12" sm="5">
+                    <MudInputLabel class="TopTitle ">Create Our Customers</MudInputLabel>
+                </MudItem>
+                <MudItem xs="12" sm="7" Style="margin-top:8px; margin-bottom:8px">
+                    <span style="float:right;">
+
+                        <MudButton Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.Save" OnClick="SaveAsync" Color="Color.Success" Style="margin-right:30px;" Size="Size.Small">Save</MudButton>
+                    </span>
+                </MudItem>
+            </MudGrid>
+        </MudCard>
+
+
+
+        <MudGrid Style="margin-top:-50px; margin-bottom:15px;">
+            <MudCard Outlined="true" Class="rounded-lg" style="width: 100%;margin-left:1rem;margin-right:1rem; margin-bottom:200px;">
+                <MudCard Outlined="true" Class="rounded-lg HeaderCard">
+                    <MudGrid>
+                        <MudItem>
+                            <MudText Color="Color.Secondary" class="Title" Style="margin-left:10px;">Personal Details</MudText>
+                        </MudItem>
+                    </MudGrid>
+
+                    <MudGrid Class="d-flex justify-center mt-2 px-sm-4">
+                        <MudItem xs="12" md="4" Class="px-md-6 mr-md-6">
+                            <MudTextField Margin="Margin.Dense" Variant="Variant.Outlined" @bind-Value="_createCustomerRequest.FirstName" Label="First Name"></MudTextField>
+                        </MudItem>
+                        <MudItem xs="12" md="4" Class="px-md-6 mr-md-6">
+                            <MudTextField Margin="Margin.Dense" Variant="Variant.Outlined" @bind-Value="_createCustomerRequest.LastName" Color="Color.Secondary" Label="Last Name"></MudTextField>
+                        </MudItem>
+                    </MudGrid>
+                    <MudGrid Class="d-flex justify-center mt-2 px-sm-4">
+                        <MudItem xs="12" md="4" Class="px-md-6 mr-md-6">
+                            <MudTextField Margin="Margin.Dense" Variant="Variant.Outlined" @bind-Value="_createCustomerRequest.PhoneNumber" Color="Color.Secondary" Required="true" T="string" Label="Phone Number"></MudTextField>
+                        </MudItem>
+
+                        <MudItem xs="12" md="4" Class="px-md-6 mr-md-6">
+                            <MudTextField Margin="Margin.Dense" Variant="Variant.Outlined" @bind-Value="_createCustomerRequest.Street" Color="Color.Secondary" T="string" Label="Street"></MudTextField>
+                        </MudItem>
+                    </MudGrid>
+                    <MudGrid Class="d-flex justify-center mt-2 px-sm-4">
+                        <MudItem xs="12" md="4" Class="px-md-6 mr-md-6">
+                            <MudTextField Margin="Margin.Dense" Variant="Variant.Outlined" @bind-Value="_createCustomerRequest.District" Color="Color.Secondary" T="string" Label="District"></MudTextField>
+                        </MudItem>
+
+                        <MudItem xs="12" md="4" Class="px-md-6 mr-md-6">
+                            <MudTextField Margin="Margin.Dense" Variant="Variant.Outlined" @bind-Value="_createCustomerRequest.Village" Color="Color.Secondary" T="string" Label="Village"></MudTextField>
+                        </MudItem>
+                    </MudGrid>
+                    <MudGrid Class="d-flex justify-center mt-2 px-sm-4">
+                        <MudItem xs="12" md="4" Class="px-md-6 mr-md-6">
+                            <MudTextField Margin="Margin.Dense" Variant="Variant.Outlined" @bind-Value="_createCustomerRequest.Email" Color="Color.Secondary" T="string" Label="Email"></MudTextField>
+                        </MudItem>
+
+                        <MudItem xs="12" md="4" Class="px-md-6 mr-md-6">
+                            <MudTextField Margin="Margin.Dense" Variant="Variant.Outlined" @bind-Value="_createCustomerRequest.QRRefference" Color="Color.Secondary" T="string" Label="QRReffernce"></MudTextField>
+                        </MudItem>
+                    </MudGrid>
+                    <MudGrid Class="d-flex justify-center mt-2 px-sm-4">
+                        <MudItem xs="12" md="8" Class="px-md-6 mr-md-6">
+                            <MudTextField Margin="Margin.Dense" Variant="Variant.Outlined" @bind-Value="_createCustomerRequest.Issue" Color="Color.Secondary" T="string" Label="Issue"></MudTextField>
+                        </MudItem>
+
+
+                    </MudGrid>
+
+                    <MudGrid Class="d-flex justify-center mt-2 px-sm-4">
+                        <MudItem xs="12" md="8" Class="px-md-6 mr-md-6">
+                            <MudTextField Margin="Margin.Dense" Variant="Variant.Outlined" @bind-Value="_createCustomerRequest.Description" Color="Color.Secondary" T="string" Label="Description"></MudTextField>
+                        </MudItem>
+
+
+
+                    </MudGrid>
+
+                </MudCard>
+            </MudCard>
+        </MudGrid>
+    </MudForm>
+}
+
+@code {
+
+
+    [Inject] ICustomerClient _customerClient { get; set; }
+    bool _loaded;
+    CreateCustomerRequest _createCustomerRequest = new();
+    protected override async Task OnInitializedAsync()
+    {
+        _createCustomerRequest = new();
+        _loaded = true;
+    }
+
+
+    async Task SaveAsync()
+    {
+        var response = await _customerClient.CreateAsync(_createCustomerRequest);
+        _createCustomerRequest = new();
+        Snackbar.Add($"{response.ToString()}", Severity.Success);
+
+    }
+
+
+}

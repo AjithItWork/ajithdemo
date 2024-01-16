@@ -1,0 +1,219 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = FSH.BlazorWebAssembly.Client
+build_property.RootNamespace = FSH.BlazorWebAssembly.Client
+build_property.ProjectDir = C:\ATC_Project\ATS_Webassembly\src\Client\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\ATC_Project\ATS_Webassembly\src\Client
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/ATC_Project/ATS_Webassembly/stylecop.json]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/.editorconfig]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Components/Common/ErrorHandler.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb21tb25cRXJyb3JIYW5kbGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Components/Common/FshCustomError.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb21tb25cRnNoQ3VzdG9tRXJyb3IucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Components/Common/FshTitle.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb21tb25cRnNoVGl0bGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Components/Common/PersonCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb21tb25cUGVyc29uQ2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Components/Common/TablePager.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb21tb25cVGFibGVQYWdlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Components/Dialogs/DeleteConfirmation.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEaWFsb2dzXERlbGV0ZUNvbmZpcm1hdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Components/Dialogs/Logout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEaWFsb2dzXExvZ291dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Components/EntityTable/AddEditModal.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFbnRpdHlUYWJsZVxBZGRFZGl0TW9kYWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Components/EntityTable/EntityTable.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFbnRpdHlUYWJsZVxFbnRpdHlUYWJsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Components/Localization/LanguageSelector.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMb2NhbGl6YXRpb25cTGFuZ3VhZ2VTZWxlY3Rvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Components/Notifications/NotificationConnection.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xOb3RpZmljYXRpb25zXE5vdGlmaWNhdGlvbkNvbm5lY3Rpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Components/Notifications/NotificationConnectionStatus.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xOb3RpZmljYXRpb25zXE5vdGlmaWNhdGlvbkNvbm5lY3Rpb25TdGF0dXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Components/ThemeManager/ColorPanel.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUaGVtZU1hbmFnZXJcQ29sb3JQYW5lbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Components/ThemeManager/DarkModePanel.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUaGVtZU1hbmFnZXJcRGFya01vZGVQYW5lbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Components/ThemeManager/RadiusPanel.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUaGVtZU1hbmFnZXJcUmFkaXVzUGFuZWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Components/ThemeManager/TableCustomizationPanel.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUaGVtZU1hbmFnZXJcVGFibGVDdXN0b21pemF0aW9uUGFuZWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Components/ThemeManager/ThemeButton.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUaGVtZU1hbmFnZXJcVGhlbWVCdXR0b24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Components/ThemeManager/ThemeDrawer.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUaGVtZU1hbmFnZXJcVGhlbWVEcmF3ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Pages/ATS/Customer/AddCustomer.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQVRTXEN1c3RvbWVyXEFkZEN1c3RvbWVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Pages/ATS/Customer/AllCustomers.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQVRTXEN1c3RvbWVyXEFsbEN1c3RvbWVycy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Pages/ATS/Customer/CustomerInformationById.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQVRTXEN1c3RvbWVyXEN1c3RvbWVySW5mb3JtYXRpb25CeUlkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Pages/ATS/Customer/EditCustomer.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQVRTXEN1c3RvbWVyXEVkaXRDdXN0b21lci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Pages/Authentication/Authentication.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aGVudGljYXRpb25cQXV0aGVudGljYXRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Pages/Authentication/ForgotPassword.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aGVudGljYXRpb25cRm9yZ290UGFzc3dvcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Pages/Authentication/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aGVudGljYXRpb25cTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Pages/Authentication/SelfRegister.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aGVudGljYXRpb25cU2VsZlJlZ2lzdGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Pages/Catalog/Brands.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0YWxvZ1xCcmFuZHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Pages/Catalog/Products.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0YWxvZ1xQcm9kdWN0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Pages/Identity/Account/Account.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSWRlbnRpdHlcQWNjb3VudFxBY2NvdW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Pages/Identity/Account/Profile.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSWRlbnRpdHlcQWNjb3VudFxQcm9maWxlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Pages/Identity/Account/Security.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSWRlbnRpdHlcQWNjb3VudFxTZWN1cml0eS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Pages/Identity/Roles/RolePermissions.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSWRlbnRpdHlcUm9sZXNcUm9sZVBlcm1pc3Npb25zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Pages/Identity/Roles/Roles.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSWRlbnRpdHlcUm9sZXNcUm9sZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Pages/Identity/Users/UserProfile.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSWRlbnRpdHlcVXNlcnNcVXNlclByb2ZpbGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Pages/Identity/Users/UserRoles.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSWRlbnRpdHlcVXNlcnNcVXNlclJvbGVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Pages/Identity/Users/Users.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSWRlbnRpdHlcVXNlcnNcVXNlcnMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Pages/Multitenancy/Tenants.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXVsdGl0ZW5hbmN5XFRlbmFudHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Pages/Multitenancy/UpgradeSubscriptionModal.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXVsdGl0ZW5hbmN5XFVwZ3JhZGVTdWJzY3JpcHRpb25Nb2RhbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Pages/Personal/AuditLogs.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uYWxcQXVkaXRMb2dzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Pages/Personal/Dashboard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uYWxcRGFzaGJvYXJkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Shared/BaseLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEJhc2VMYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/Shared/NotFound.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5vdEZvdW5kLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ATC_Project/ATS_Webassembly/src/Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 

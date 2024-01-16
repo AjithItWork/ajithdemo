@@ -1,0 +1,180 @@
+﻿@page "/Customer/editcustomer/{_cusId:guid}"
+@using Microsoft.AspNetCore.Components.Forms;
+@using System.Net.Http;
+
+
+<style>
+    .subtitle {
+        font-weight: bold;
+        font-size: 1rem;
+    }
+
+    .Title {
+        font-weight: 600;
+    }
+
+    .TopTitle {
+        font-size: 20px;
+        padding-top: 10px;
+        Font-weight: 600;
+        padding-left: 50px;
+        padding-top: 15px;
+        ;
+    }
+
+    .HeaderCard {
+        box-shadow: 0px 2px 08px rgb(43, 43, 43)
+    }
+
+        .HeaderCard:hover {
+            box-shadow: 2px 4px 10px rgb(0, 0, 0);
+        }
+
+    .headtop {
+        display: flex;
+    }
+
+    .head {
+        position: sticky;
+        top: 250px;
+    }
+
+    .centered {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Adjust as needed */
+    }
+</style>
+
+
+<MudForm Model="@_updateCustomerRequest" style="margin-bottom:50px; overflow-x:hidden;overflow-y:auto;" OnValidSubmit="SaveAsync">
+
+
+
+
+    <MudCard Class="rounded-lg HeaderCard" Style=" position:sticky; min-height: 120px;margin-bottom:10rem">
+        <MudGrid>
+            <MudItem xs="12" sm="5">
+                <MudInputLabel class="TopTitle ">Edit Our Customers</MudInputLabel>
+            </MudItem>
+            <MudItem xs="12" sm="7" Style="margin-top:8px; margin-bottom:8px">
+                <span style="float:right;">
+
+                    <MudButton Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.Save" OnClick="SaveAsync" Color="Color.Success" Style="margin-right:30px;" Size="Size.Small">Save</MudButton>
+                </span>
+            </MudItem>
+        </MudGrid>
+    </MudCard>
+
+
+
+    <MudGrid Style="margin-top:-50px; margin-bottom:15px;">
+        <MudCard Outlined="true" Class="rounded-lg" style="width: 100%;margin-left:1rem;margin-right:1rem; margin-bottom:200px;">
+            <MudCard Outlined="true" Class="rounded-lg HeaderCard">
+                <MudGrid>
+                    <MudItem>
+                        <MudText Color="Color.Secondary" class="Title" Style="margin-left:10px;">Personal Details</MudText>
+                    </MudItem>
+                </MudGrid>
+
+                <MudGrid Class="d-flex justify-center mt-2 px-sm-4">
+                    <MudItem xs="12" md="4" Class="px-md-6 mr-md-6">
+                        <MudTextField Margin="Margin.Dense" Variant="Variant.Outlined" @bind-Value="_updateCustomerRequest.FirstName" Label="First Name"></MudTextField>
+                    </MudItem>
+                    <MudItem xs="12" md="4" Class="px-md-6 mr-md-6">
+                        <MudTextField Margin="Margin.Dense" Variant="Variant.Outlined" @bind-Value="_updateCustomerRequest.LastName" Color="Color.Secondary" Label="Last Name"></MudTextField>
+                    </MudItem>
+                </MudGrid>
+                <MudGrid Class="d-flex justify-center mt-2 px-sm-4">
+                    <MudItem xs="12" md="4" Class="px-md-6 mr-md-6">
+                        <MudTextField Margin="Margin.Dense" Variant="Variant.Outlined" @bind-Value="_updateCustomerRequest.PhoneNumber" Color="Color.Secondary" Required="true" T="string" Label="Phone Number"></MudTextField>
+                    </MudItem>
+
+                    <MudItem xs="12" md="4" Class="px-md-6 mr-md-6">
+                        <MudTextField Margin="Margin.Dense" Variant="Variant.Outlined" @bind-Value="_updateCustomerRequest.Street" Color="Color.Secondary" T="string" Label="Street"></MudTextField>
+                    </MudItem>
+                </MudGrid>
+                <MudGrid Class="d-flex justify-center mt-2 px-sm-4">
+                    <MudItem xs="12" md="4" Class="px-md-6 mr-md-6">
+                        <MudTextField Margin="Margin.Dense" Variant="Variant.Outlined" @bind-Value="_updateCustomerRequest.District" Color="Color.Secondary" T="string" Label="District"></MudTextField>
+                    </MudItem>
+
+                    <MudItem xs="12" md="4" Class="px-md-6 mr-md-6">
+                        <MudTextField Margin="Margin.Dense" Variant="Variant.Outlined" @bind-Value="_updateCustomerRequest.Village" Color="Color.Secondary" T="string" Label="Village"></MudTextField>
+                    </MudItem>
+                </MudGrid>
+                <MudGrid Class="d-flex justify-center mt-2 px-sm-4">
+                    <MudItem xs="12" md="4" Class="px-md-6 mr-md-6">
+                        <MudTextField Margin="Margin.Dense" Variant="Variant.Outlined" @bind-Value="_updateCustomerRequest.Email" Color="Color.Secondary" T="string" Label="Email"></MudTextField>
+                    </MudItem>
+
+                    <MudItem xs="12" md="4" Class="px-md-6 mr-md-6">
+                        <MudTextField Margin="Margin.Dense" Variant="Variant.Outlined" @bind-Value="_updateCustomerRequest.QRRefference" Color="Color.Secondary" T="string" Label="QRReffernce"></MudTextField>
+                    </MudItem>
+                </MudGrid>
+                <MudGrid Class="d-flex justify-center mt-2 px-sm-4">
+                    <MudItem xs="12" md="8" Class="px-md-6 mr-md-6">
+                        <MudTextField Margin="Margin.Dense" Variant="Variant.Outlined" @bind-Value="_updateCustomerRequest.Issue" Color="Color.Secondary" T="string" Label="Issue"></MudTextField>
+                    </MudItem>
+
+
+                </MudGrid>
+
+                <MudGrid Class="d-flex justify-center mt-2 px-sm-4">
+                    <MudItem xs="12" md="8" Class="px-md-6 mr-md-6">
+                        <MudTextField Margin="Margin.Dense" Variant="Variant.Outlined" @bind-Value="_updateCustomerRequest.Description" Color="Color.Secondary" T="string" Label="Description"></MudTextField>
+                    </MudItem>
+
+
+
+                </MudGrid>
+
+            </MudCard>
+        </MudCard>
+    </MudGrid>
+</MudForm>
+
+
+@code {
+
+
+    [Parameter] public Guid _cusId { get; set; }
+    [Inject] ICustomerClient _customerClient { get; set; }
+
+    CustomerDto _customerDto = new();
+    UpdateCustomerRequest _updateCustomerRequest = new();
+    protected override async Task OnInitializedAsync()
+    {
+        _customerDto = (await _customerClient.GetListAsync()).FirstOrDefault(x => x.Id == _cusId);
+        // _customerDto = await _customerClient.GetAsync(_cusId);
+        await CopyDatas();
+    }
+
+    public async Task CopyDatas()
+    {
+        _updateCustomerRequest.Id = _customerDto.Id;
+        _updateCustomerRequest.FirstName = _customerDto.FirstName;
+        _updateCustomerRequest.LastName = _customerDto.LastName;
+        _updateCustomerRequest.QRRefference = _customerDto.QRRefference;
+        _updateCustomerRequest.Issue = _customerDto.Issue;
+        _updateCustomerRequest.PhoneNumber = _customerDto.PhoneNumber;
+        _updateCustomerRequest.Email = _customerDto.Email;
+        _updateCustomerRequest.Street = _customerDto.Street;
+        _updateCustomerRequest.District = _customerDto.District;
+        _updateCustomerRequest.State = _customerDto.State;
+        _updateCustomerRequest.Description = _customerDto.Description;
+
+    }
+
+    public async Task SaveAsync()
+
+    {
+        var result = await _customerClient.UpdateAsync(_updateCustomerRequest.Id, _updateCustomerRequest);
+        if (result != null)
+        {
+            Snackbar.Add("Customer Updated Successfully", Severity.Success);
+        }
+    }
+
+}

@@ -1,0 +1,135 @@
+@page "/ATS/CustomerById/{_cusId:guid}"
+<MudCard Outlined="true" Class="rounded-lg " Style="z-index:1; position:sticky; top:63px;min-height: 100px;margin-bottom:10rem">
+    <MudCardContent>
+        <MudGrid>
+            <MudItem xs="6" sm="6">
+                <MudText Typo="Typo.h6">Customers Information By QR Id</MudText>
+            </MudItem>
+            <MudSpacer />
+
+            <MudItem>
+                <MudButton Variant="Variant.Filled" Style="margin-right:10px; margin-top:8px;" OnClick="NavToEdit" StartIcon="@Icons.Material.Filled.Add" Color="Color.Primary" Size="Size.Small">Edit Customer</MudButton>
+
+
+            </MudItem>
+        </MudGrid>
+    </MudCardContent>
+</MudCard>
+
+<MudCard>
+    <MudGrid>
+        <MudItem xs="4">
+
+            <MudImage Src="https://res.cloudinary.com/dmpevjz1e/image/upload/v1704991254/ATS/mobile_service_Image_wlmkbj.jpg">   </MudImage>
+        </MudItem>
+        <MudItem xs="8">
+
+            <MudGrid>
+
+                <MudItem xs="2"></MudItem>
+                <MudItem xs="4">
+                    <MudText >Customer Name </MudText>                   
+                </MudItem>
+                
+                <MudItem xs="4">
+                    <MudText>@_customerDto.FirstName &nbsp; @_customerDto.LastName  </MudText>
+                </MudItem>
+                <MudItem xs="2"></MudItem>
+
+            </MudGrid>
+               <MudGrid>
+
+                <MudItem xs="2"></MudItem>
+                <MudItem xs="4">
+                    <MudText >Phone Number </MudText>                   
+                </MudItem>
+                
+                <MudItem xs="4">
+                    <MudText>@_customerDto.PhoneNumber</MudText>
+                </MudItem>
+                <MudItem xs="2"></MudItem>
+
+            </MudGrid>
+               <MudGrid>
+
+                <MudItem xs="2"></MudItem>
+                <MudItem xs="4">
+                    <MudText >Customer Address </MudText>                   
+                </MudItem>
+                
+                <MudItem xs="4">
+                        <MudText>@_customerDto.Street,@_customerDto.Village, @_customerDto.District  </MudText>
+                </MudItem>
+                <MudItem xs="2"></MudItem>
+
+            </MudGrid>
+               <MudGrid>
+
+                <MudItem xs="2"></MudItem>
+                <MudItem xs="4">
+                    <MudText >Issue Reported</MudText>                    
+                </MudItem>
+                
+                <MudItem xs="4">
+                    <MudText>@_customerDto.Issue </MudText>
+                </MudItem>
+                <MudItem xs="2"></MudItem>
+
+            </MudGrid>
+            <MudGrid>
+
+                <MudItem xs="2"></MudItem>
+                <MudItem xs="4">
+                    <MudText>Descriptions </MudText>
+                </MudItem>
+
+                <MudItem xs="4">
+                    <MudText>@_customerDto.Description  </MudText>
+                </MudItem>
+                <MudItem xs="2"></MudItem>
+
+            </MudGrid>
+
+
+            <MudGrid>
+
+                <MudItem xs="2"></MudItem>
+                <MudItem xs="4">
+                    <MudText>QRReffernce</MudText>
+                </MudItem>
+
+                <MudItem xs="4">
+                    <MudText>@_customerDto.QRRefference  </MudText>
+                </MudItem>
+                <MudItem xs="2"></MudItem>
+
+            </MudGrid>
+
+
+
+
+
+
+        </MudItem>
+        @* <MudItem xs="4"></MudItem> *@
+    </MudGrid>
+</MudCard>
+
+@code {
+    [Parameter] public Guid _cusId { get; set; }
+    [Inject] ICustomerClient _customerClient { get; set; }
+
+    CustomerDto _customerDto = new();
+    protected override async Task OnInitializedAsync()
+    {
+        _customerDto = (await _customerClient.GetListAsync()).FirstOrDefault(x => x.Id == _cusId);
+        // _customerDto = await _customerClient.GetAsync(_cusId);
+
+    }
+
+    async Task NavToEdit()
+    {
+        Navigation.NavigateTo($"/Customer/editcustomer/{_cusId}");
+    }
+
+}

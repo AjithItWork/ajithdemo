@@ -1,0 +1,65 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\ATC_Project\\ATS_Webassembly\\src\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\ATC_Project\\ATS_Webassembly\\src\\Client\\obj\\Debug\\net6.0\\compressed\\sybqomexo9.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\ATC_Project\\ATS_Webassembly\\src\\Client\\obj\\Debug\\net6.0\\service-worker-assets.js",
+      "PackagePath": "staticwebassets\\service-worker-assets.js"
+    },
+    {
+      "Id": "C:\\ATC_Project\\ATS_Webassembly\\src\\Client\\obj\\Debug\\net6.0\\service-worker\\service-worker.published.js",
+      "PackagePath": "staticwebassets\\service-worker.js"
+    },
+    {
+      "Id": "C:\\ATC_Project\\ATS_Webassembly\\src\\Client\\wwwroot\\ATS_LOGO.png",
+      "PackagePath": "staticwebassets\\ATS_LOGO.png"
+    },
+    {
+      "Id": "C:\\ATC_Project\\ATS_Webassembly\\src\\Client\\wwwroot\\appsettings.Development.json",
+      "PackagePath": "staticwebassets\\appsettings.Development.json"
+    },
+    {
+      "Id": "C:\\ATC_Project\\ATS_Webassembly\\src\\Client\\wwwroot\\appsettings.json",
+      "PackagePath": "staticwebassets\\appsettings.json"
+    },
+    {
+      "Id": "C:\\ATC_Project\\ATS_Webassembly\\src\\Client\\wwwroot\\css\\fsh.css",
+      "PackagePath": "staticwebassets\\css\\fsh.css"
+    },
+    {
+      "Id": "C:\\ATC_Project\\ATS_Webassembly\\src\\Client\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\ATC_Project\\ATS_Webassembly\\src\\Client\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\ATC_Project\\ATS_Webassembly\\src\\Client\\wwwroot\\manifest.json",
+      "PackagePath": "staticwebassets\\manifest.json"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.FSH.BlazorWebAssembly.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.FSH.BlazorWebAssembly.Client.props",
+      "PackagePath": "build\\FSH.BlazorWebAssembly.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.FSH.BlazorWebAssembly.Client.props",
+      "PackagePath": "buildMultiTargeting\\FSH.BlazorWebAssembly.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.FSH.BlazorWebAssembly.Client.props",
+      "PackagePath": "buildTransitive\\FSH.BlazorWebAssembly.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

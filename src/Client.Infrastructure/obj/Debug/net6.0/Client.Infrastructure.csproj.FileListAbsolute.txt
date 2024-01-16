@@ -1,0 +1,17 @@
+C:\ATC_Project\ATS_Webassembly\src\Client.Infrastructure\bin\Debug\net6.0\FSH.BlazorWebAssembly.Client.Infrastructure.xml
+C:\ATC_Project\ATS_Webassembly\src\Client.Infrastructure\bin\Debug\net6.0\FSH.BlazorWebAssembly.Client.Infrastructure.deps.json
+C:\ATC_Project\ATS_Webassembly\src\Client.Infrastructure\bin\Debug\net6.0\FSH.BlazorWebAssembly.Client.Infrastructure.dll
+C:\ATC_Project\ATS_Webassembly\src\Client.Infrastructure\bin\Debug\net6.0\FSH.BlazorWebAssembly.Client.Infrastructure.pdb
+C:\ATC_Project\ATS_Webassembly\src\Client.Infrastructure\bin\Debug\net6.0\FSH.WebApi.Shared.dll
+C:\ATC_Project\ATS_Webassembly\src\Client.Infrastructure\bin\Debug\net6.0\FSH.WebApi.Shared.pdb
+C:\ATC_Project\ATS_Webassembly\src\Client.Infrastructure\bin\Debug\net6.0\FSH.WebApi.Shared.xml
+C:\ATC_Project\ATS_Webassembly\src\Client.Infrastructure\obj\Debug\net6.0\Client.Infrastructure.csproj.AssemblyReference.cache
+C:\ATC_Project\ATS_Webassembly\src\Client.Infrastructure\obj\Debug\net6.0\Client.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\ATC_Project\ATS_Webassembly\src\Client.Infrastructure\obj\Debug\net6.0\Client.Infrastructure.AssemblyInfoInputs.cache
+C:\ATC_Project\ATS_Webassembly\src\Client.Infrastructure\obj\Debug\net6.0\Client.Infrastructure.AssemblyInfo.cs
+C:\ATC_Project\ATS_Webassembly\src\Client.Infrastructure\obj\Debug\net6.0\Client.Infrastructure.csproj.CoreCompileInputs.cache
+C:\ATC_Project\ATS_Webassembly\src\Client.Infrastructure\obj\Debug\net6.0\Client.Infrastructure.csproj.CopyComplete
+C:\ATC_Project\ATS_Webassembly\src\Client.Infrastructure\obj\Debug\net6.0\FSH.BlazorWebAssembly.Client.Infrastructure.dll
+C:\ATC_Project\ATS_Webassembly\src\Client.Infrastructure\obj\Debug\net6.0\refint\FSH.BlazorWebAssembly.Client.Infrastructure.dll
+C:\ATC_Project\ATS_Webassembly\src\Client.Infrastructure\obj\Debug\net6.0\FSH.BlazorWebAssembly.Client.Infrastructure.pdb
+C:\ATC_Project\ATS_Webassembly\src\Client.Infrastructure\obj\Debug\net6.0\ref\FSH.BlazorWebAssembly.Client.Infrastructure.dll

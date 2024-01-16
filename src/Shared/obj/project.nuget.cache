@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "Fx34cxTcOB0/LJEX6PVmGiGMBjHGG5IC8zwEqXvJm2wm/bR4JQMj7kq9v825mc8Xlg8cFWUtXZyyJj561BTLcg==",
+  "success": true,
+  "projectFilePath": "C:\\ATC_Project\\ATS_Webassembly\\src\\Shared\\Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\atsmo\\.nuget\\packages\\roslynator.analyzers\\4.1.0\\roslynator.analyzers.4.1.0.nupkg.sha512",
+    "C:\\Users\\atsmo\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.435\\stylecop.analyzers.1.2.0-beta.435.nupkg.sha512",
+    "C:\\Users\\atsmo\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.435\\stylecop.analyzers.unstable.1.2.0.435.nupkg.sha512",
+    "C:\\Users\\atsmo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\atsmo\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\atsmo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512"
+  ],
+  "logs": []
+}

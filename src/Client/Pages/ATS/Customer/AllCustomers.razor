@@ -1,0 +1,94 @@
+﻿@page "/ATS/AllCustomers"
+
+<MudCard Outlined="true" Class="rounded-lg " Style="z-index:1; position:sticky; top:63px;min-height: 100px;margin-bottom:10rem">
+    <MudCardContent>
+        <MudGrid>
+            <MudItem xs="6" sm="6">
+                <MudText Typo="Typo.h6" >Customers Informations</MudText>
+            </MudItem>
+            <MudSpacer />
+
+            <MudItem>
+                <MudButton Variant="Variant.Filled" Style="margin-right:10px; margin-top:8px;" OnClick="AddCustomers" StartIcon="@Icons.Material.Filled.Add" Color="Color.Primary" Size="Size.Small">Add Customer</MudButton>
+                
+
+            </MudItem>
+        </MudGrid>
+    </MudCardContent>
+</MudCard>
+
+
+<MudGrid Style="margin-top:12rem ">
+    <MudItem xs ="10">
+        <MudTextField @bind-Value = "_searchString"  Immediate="true" Label="Search" Variant="Variant.Outlined" Adornment="Adornment.End" AdornmentIcon="@Icons.Material.Filled.Search" AdornmentColor="Color.Secondary" />
+    </MudItem>
+    <MudButton OnClick="SearchByQR"> Search </MudButton>
+        <MudItem Style="margin-bottom:50px;" xs="12">
+
+            <FshTable  Items="_customerDto" T="CustomerDto" >
+                <HeaderContent>
+                    <MudTh><MudTableSortLabel SortBy="new Func<CustomerDto, object>(x => x.FirstName)"><MudText class="moreinfosubtitle">First Name</MudText></MudTableSortLabel></MudTh>
+                <MudTh><MudTableSortLabel SortBy="new Func<CustomerDto, object>(x => x.Email)"><MudText class="moreinfosubtitle">Email</MudText></MudTableSortLabel></MudTh>
+                <MudTh><MudTableSortLabel SortBy="new Func<CustomerDto, object>(x => x.PhoneNumber)"><MudText class="moreinfosubtitle">Phone</MudText></MudTableSortLabel></MudTh>
+
+                <MudTh>
+                    <MudTableSortLabel SortBy="new Func<CustomerDto, object>(x => x.QRRefference)"><MudText class="moreinfosubtitle">QRReffernce</MudText></MudTableSortLabel></MudTh>
+
+                </HeaderContent>
+                <RowTemplate>
+
+                <MudTd DataLabel="First Name" @onclick="@(() => NavToCusInfoById(context.Id))"><MudHighlighter Text="@context.FirstName" /></MudTd>
+                <MudTd DataLabel="Email" @onclick="@(() => NavToCusInfoById(context.Id))"><MudHighlighter Text="@context.Email" /></MudTd>
+                <MudTd DataLabel="Phone" @onclick="@(() => NavToCusInfoById(context.Id))"><MudHighlighter Text="@context.PhoneNumber" /></MudTd>
+                <MudTd DataLabel="QRReffernce" @onclick="@(() => NavToCusInfoById(context.Id))"><MudHighlighter Text="@context.QRRefference" /></MudTd>
+
+                  
+
+                </RowTemplate>
+                <PagerContent>
+                    <TablePager />
+                </PagerContent>
+            </FshTable>
+        </MudItem>
+    </MudGrid>
+
+
+@code {
+
+    [Inject] ICustomerClient _customerClient { get; set; }
+    List<CustomerDto> _customerDto = new();
+    List<CustomerDto> _customerDtoAll = new();
+    public string _searchString { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await GetCustomersAsync();
+    }
+    async Task GetCustomersAsync()
+    {
+        _customerDto = (await _customerClient.GetListAsync()).ToList();
+        _customerDtoAll = _customerDto;
+    }
+
+    async Task AddCustomers()
+    {
+        Navigation.NavigateTo("/Customer/addcustomer");
+    }
+    async Task NavToCusInfoById(Guid id)
+    {
+        Navigation.NavigateTo($"/ATS/CustomerById/{id}");
+    }
+    void SearchByQR()
+    {
+       
+        if(_searchString == "" || _searchString == null)
+        {
+            _customerDto = _customerDtoAll;
+        }
+        else
+        {
+            _customerDto = _customerDtoAll.Where(x => x.QRRefference.Contains(_searchString)).ToList();
+
+        }
+    }
+}

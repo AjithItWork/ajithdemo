@@ -1,0 +1,1260 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FSH.BlazorWebAssembly.Client.Infrastructure</name>
+    </assembly>
+    <members>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ITenantsClient.GetListAsync">
+            <summary>
+            Get a list of all tenants.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ITenantsClient.GetListAsync(System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Get a list of all tenants.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ITenantsClient.CreateAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.CreateTenantRequest)">
+            <summary>
+            Create a new tenant.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ITenantsClient.CreateAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.CreateTenantRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Create a new tenant.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ITenantsClient.GetAsync(System.String)">
+            <summary>
+            Get tenant details.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ITenantsClient.GetAsync(System.String,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Get tenant details.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ITenantsClient.ActivateAsync(System.String)">
+            <summary>
+            Activate a tenant.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ITenantsClient.ActivateAsync(System.String,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Activate a tenant.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ITenantsClient.DeactivateAsync(System.String)">
+            <summary>
+            Deactivate a tenant.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ITenantsClient.DeactivateAsync(System.String,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Deactivate a tenant.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ITenantsClient.UpgradeSubscriptionAsync(System.String,FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UpgradeSubscriptionRequest)">
+            <summary>
+            Upgrade a tenant's subscription.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ITenantsClient.UpgradeSubscriptionAsync(System.String,FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UpgradeSubscriptionRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Upgrade a tenant's subscription.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.TenantsClient.GetListAsync">
+            <summary>
+            Get a list of all tenants.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.TenantsClient.GetListAsync(System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Get a list of all tenants.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.TenantsClient.CreateAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.CreateTenantRequest)">
+            <summary>
+            Create a new tenant.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.TenantsClient.CreateAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.CreateTenantRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Create a new tenant.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.TenantsClient.GetAsync(System.String)">
+            <summary>
+            Get tenant details.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.TenantsClient.GetAsync(System.String,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Get tenant details.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.TenantsClient.ActivateAsync(System.String)">
+            <summary>
+            Activate a tenant.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.TenantsClient.ActivateAsync(System.String,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Activate a tenant.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.TenantsClient.DeactivateAsync(System.String)">
+            <summary>
+            Deactivate a tenant.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.TenantsClient.DeactivateAsync(System.String,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Deactivate a tenant.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.TenantsClient.UpgradeSubscriptionAsync(System.String,FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UpgradeSubscriptionRequest)">
+            <summary>
+            Upgrade a tenant's subscription.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.TenantsClient.UpgradeSubscriptionAsync(System.String,FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UpgradeSubscriptionRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Upgrade a tenant's subscription.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IRolesClient.GetListAsync">
+            <summary>
+            Get a list of all roles.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IRolesClient.GetListAsync(System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Get a list of all roles.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IRolesClient.RegisterRoleAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.CreateOrUpdateRoleRequest)">
+            <summary>
+            Create or update a role.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IRolesClient.RegisterRoleAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.CreateOrUpdateRoleRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Create or update a role.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IRolesClient.GetByIdAsync(System.String)">
+            <summary>
+            Get role details.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IRolesClient.GetByIdAsync(System.String,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Get role details.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IRolesClient.DeleteAsync(System.String)">
+            <summary>
+            Delete a role.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IRolesClient.DeleteAsync(System.String,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Delete a role.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IRolesClient.GetByIdWithPermissionsAsync(System.String)">
+            <summary>
+            Get role details with its permissions.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IRolesClient.GetByIdWithPermissionsAsync(System.String,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Get role details with its permissions.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IRolesClient.UpdatePermissionsAsync(System.String,FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UpdateRolePermissionsRequest)">
+            <summary>
+            Update a role's permissions.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IRolesClient.UpdatePermissionsAsync(System.String,FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UpdateRolePermissionsRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Update a role's permissions.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.RolesClient.GetListAsync">
+            <summary>
+            Get a list of all roles.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.RolesClient.GetListAsync(System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Get a list of all roles.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.RolesClient.RegisterRoleAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.CreateOrUpdateRoleRequest)">
+            <summary>
+            Create or update a role.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.RolesClient.RegisterRoleAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.CreateOrUpdateRoleRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Create or update a role.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.RolesClient.GetByIdAsync(System.String)">
+            <summary>
+            Get role details.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.RolesClient.GetByIdAsync(System.String,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Get role details.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.RolesClient.DeleteAsync(System.String)">
+            <summary>
+            Delete a role.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.RolesClient.DeleteAsync(System.String,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Delete a role.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.RolesClient.GetByIdWithPermissionsAsync(System.String)">
+            <summary>
+            Get role details with its permissions.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.RolesClient.GetByIdWithPermissionsAsync(System.String,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Get role details with its permissions.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.RolesClient.UpdatePermissionsAsync(System.String,FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UpdateRolePermissionsRequest)">
+            <summary>
+            Update a role's permissions.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.RolesClient.UpdatePermissionsAsync(System.String,FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UpdateRolePermissionsRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Update a role's permissions.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ITokensClient.GetTokenAsync(System.String,FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.TokenRequest)">
+            <summary>
+            Request an access token using credentials.
+            </summary>
+            <param name="tenant">Input your tenant Id to access this API</param>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ITokensClient.GetTokenAsync(System.String,FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.TokenRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Request an access token using credentials.
+            </summary>
+            <param name="tenant">Input your tenant Id to access this API</param>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ITokensClient.RefreshAsync(System.String,FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.RefreshTokenRequest)">
+            <summary>
+            Request an access token using a refresh token.
+            </summary>
+            <param name="tenant">Input your tenant Id to access this API</param>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ITokensClient.RefreshAsync(System.String,FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.RefreshTokenRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Request an access token using a refresh token.
+            </summary>
+            <param name="tenant">Input your tenant Id to access this API</param>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.TokensClient.GetTokenAsync(System.String,FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.TokenRequest)">
+            <summary>
+            Request an access token using credentials.
+            </summary>
+            <param name="tenant">Input your tenant Id to access this API</param>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.TokensClient.GetTokenAsync(System.String,FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.TokenRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Request an access token using credentials.
+            </summary>
+            <param name="tenant">Input your tenant Id to access this API</param>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.TokensClient.RefreshAsync(System.String,FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.RefreshTokenRequest)">
+            <summary>
+            Request an access token using a refresh token.
+            </summary>
+            <param name="tenant">Input your tenant Id to access this API</param>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.TokensClient.RefreshAsync(System.String,FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.RefreshTokenRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Request an access token using a refresh token.
+            </summary>
+            <param name="tenant">Input your tenant Id to access this API</param>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IUsersClient.GetListAsync">
+            <summary>
+            Get list of all users.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IUsersClient.GetListAsync(System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Get list of all users.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IUsersClient.CreateAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.CreateUserRequest)">
+            <summary>
+            Creates a new user.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IUsersClient.CreateAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.CreateUserRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Creates a new user.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IUsersClient.GetByIdAsync(System.String)">
+            <summary>
+            Get a user's details.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IUsersClient.GetByIdAsync(System.String,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Get a user's details.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IUsersClient.GetRolesAsync(System.String)">
+            <summary>
+            Get a user's roles.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IUsersClient.GetRolesAsync(System.String,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Get a user's roles.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IUsersClient.AssignRolesAsync(System.String,FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UserRolesRequest)">
+            <summary>
+            Update a user's assigned roles.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IUsersClient.AssignRolesAsync(System.String,FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UserRolesRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Update a user's assigned roles.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IUsersClient.SelfRegisterAsync(System.String,FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.CreateUserRequest)">
+            <summary>
+            Anonymous user creates a user.
+            </summary>
+            <param name="tenant">Input your tenant Id to access this API</param>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IUsersClient.SelfRegisterAsync(System.String,FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.CreateUserRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Anonymous user creates a user.
+            </summary>
+            <param name="tenant">Input your tenant Id to access this API</param>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IUsersClient.ToggleStatusAsync(System.String,FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ToggleUserStatusRequest)">
+            <summary>
+            Toggle a user's active status.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IUsersClient.ToggleStatusAsync(System.String,FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ToggleUserStatusRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Toggle a user's active status.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IUsersClient.ConfirmEmailAsync(System.String,System.String,System.String)">
+            <summary>
+            Confirm email address for a user.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IUsersClient.ConfirmEmailAsync(System.String,System.String,System.String,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Confirm email address for a user.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IUsersClient.ConfirmPhoneNumberAsync(System.String,System.String)">
+            <summary>
+            Confirm phone number for a user.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IUsersClient.ConfirmPhoneNumberAsync(System.String,System.String,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Confirm phone number for a user.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IUsersClient.ForgotPasswordAsync(System.String,FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ForgotPasswordRequest)">
+            <summary>
+            Request a pasword reset email for a user.
+            </summary>
+            <param name="tenant">Input your tenant Id to access this API</param>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IUsersClient.ForgotPasswordAsync(System.String,FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ForgotPasswordRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Request a pasword reset email for a user.
+            </summary>
+            <param name="tenant">Input your tenant Id to access this API</param>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IUsersClient.ResetPasswordAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ResetPasswordRequest)">
+            <summary>
+            Reset a user's password.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IUsersClient.ResetPasswordAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ResetPasswordRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Reset a user's password.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UsersClient.GetListAsync">
+            <summary>
+            Get list of all users.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UsersClient.GetListAsync(System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Get list of all users.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UsersClient.CreateAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.CreateUserRequest)">
+            <summary>
+            Creates a new user.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UsersClient.CreateAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.CreateUserRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Creates a new user.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UsersClient.GetByIdAsync(System.String)">
+            <summary>
+            Get a user's details.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UsersClient.GetByIdAsync(System.String,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Get a user's details.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UsersClient.GetRolesAsync(System.String)">
+            <summary>
+            Get a user's roles.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UsersClient.GetRolesAsync(System.String,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Get a user's roles.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UsersClient.AssignRolesAsync(System.String,FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UserRolesRequest)">
+            <summary>
+            Update a user's assigned roles.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UsersClient.AssignRolesAsync(System.String,FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UserRolesRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Update a user's assigned roles.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UsersClient.SelfRegisterAsync(System.String,FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.CreateUserRequest)">
+            <summary>
+            Anonymous user creates a user.
+            </summary>
+            <param name="tenant">Input your tenant Id to access this API</param>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UsersClient.SelfRegisterAsync(System.String,FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.CreateUserRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Anonymous user creates a user.
+            </summary>
+            <param name="tenant">Input your tenant Id to access this API</param>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UsersClient.ToggleStatusAsync(System.String,FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ToggleUserStatusRequest)">
+            <summary>
+            Toggle a user's active status.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UsersClient.ToggleStatusAsync(System.String,FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ToggleUserStatusRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Toggle a user's active status.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UsersClient.ConfirmEmailAsync(System.String,System.String,System.String)">
+            <summary>
+            Confirm email address for a user.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UsersClient.ConfirmEmailAsync(System.String,System.String,System.String,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Confirm email address for a user.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UsersClient.ConfirmPhoneNumberAsync(System.String,System.String)">
+            <summary>
+            Confirm phone number for a user.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UsersClient.ConfirmPhoneNumberAsync(System.String,System.String,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Confirm phone number for a user.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UsersClient.ForgotPasswordAsync(System.String,FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ForgotPasswordRequest)">
+            <summary>
+            Request a pasword reset email for a user.
+            </summary>
+            <param name="tenant">Input your tenant Id to access this API</param>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UsersClient.ForgotPasswordAsync(System.String,FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ForgotPasswordRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Request a pasword reset email for a user.
+            </summary>
+            <param name="tenant">Input your tenant Id to access this API</param>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UsersClient.ResetPasswordAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ResetPasswordRequest)">
+            <summary>
+            Reset a user's password.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UsersClient.ResetPasswordAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ResetPasswordRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Reset a user's password.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IPersonalClient.GetProfileAsync">
+            <summary>
+            Get profile details of currently logged in user.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IPersonalClient.GetProfileAsync(System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Get profile details of currently logged in user.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IPersonalClient.UpdateProfileAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UpdateUserRequest)">
+            <summary>
+            Update profile details of currently logged in user.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IPersonalClient.UpdateProfileAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UpdateUserRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Update profile details of currently logged in user.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IPersonalClient.ChangePasswordAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ChangePasswordRequest)">
+            <summary>
+            Change password of currently logged in user.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IPersonalClient.ChangePasswordAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ChangePasswordRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Change password of currently logged in user.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IPersonalClient.GetPermissionsAsync">
+            <summary>
+            Get permissions of currently logged in user.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IPersonalClient.GetPermissionsAsync(System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Get permissions of currently logged in user.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IPersonalClient.GetLogsAsync">
+            <summary>
+            Get audit logs of currently logged in user.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IPersonalClient.GetLogsAsync(System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Get audit logs of currently logged in user.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.PersonalClient.GetProfileAsync">
+            <summary>
+            Get profile details of currently logged in user.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.PersonalClient.GetProfileAsync(System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Get profile details of currently logged in user.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.PersonalClient.UpdateProfileAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UpdateUserRequest)">
+            <summary>
+            Update profile details of currently logged in user.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.PersonalClient.UpdateProfileAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UpdateUserRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Update profile details of currently logged in user.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.PersonalClient.ChangePasswordAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ChangePasswordRequest)">
+            <summary>
+            Change password of currently logged in user.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.PersonalClient.ChangePasswordAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ChangePasswordRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Change password of currently logged in user.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.PersonalClient.GetPermissionsAsync">
+            <summary>
+            Get permissions of currently logged in user.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.PersonalClient.GetPermissionsAsync(System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Get permissions of currently logged in user.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.PersonalClient.GetLogsAsync">
+            <summary>
+            Get audit logs of currently logged in user.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.PersonalClient.GetLogsAsync(System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Get audit logs of currently logged in user.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IDashboardClient.GetAsync">
+            <summary>
+            Get statistics for the dashboard.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IDashboardClient.GetAsync(System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Get statistics for the dashboard.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.DashboardClient.GetAsync">
+            <summary>
+            Get statistics for the dashboard.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.DashboardClient.GetAsync(System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Get statistics for the dashboard.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IBrandsClient.SearchAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.SearchBrandsRequest)">
+            <summary>
+            Search brands using available filters.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IBrandsClient.SearchAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.SearchBrandsRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Search brands using available filters.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IBrandsClient.GetAsync(System.Guid)">
+            <summary>
+            Get brand details.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IBrandsClient.GetAsync(System.Guid,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Get brand details.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IBrandsClient.UpdateAsync(System.Guid,FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UpdateBrandRequest)">
+            <summary>
+            Update a brand.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IBrandsClient.UpdateAsync(System.Guid,FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UpdateBrandRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Update a brand.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IBrandsClient.DeleteAsync(System.Guid)">
+            <summary>
+            Delete a brand.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IBrandsClient.DeleteAsync(System.Guid,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Delete a brand.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IBrandsClient.CreateAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.CreateBrandRequest)">
+            <summary>
+            Create a new brand.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IBrandsClient.CreateAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.CreateBrandRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Create a new brand.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IBrandsClient.GenerateRandomAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.GenerateRandomBrandRequest)">
+            <summary>
+            Generate a number of random brands.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IBrandsClient.GenerateRandomAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.GenerateRandomBrandRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Generate a number of random brands.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IBrandsClient.DeleteRandomAsync">
+            <summary>
+            Delete the brands generated with the generate-random call.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IBrandsClient.DeleteRandomAsync(System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Delete the brands generated with the generate-random call.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.BrandsClient.SearchAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.SearchBrandsRequest)">
+            <summary>
+            Search brands using available filters.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.BrandsClient.SearchAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.SearchBrandsRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Search brands using available filters.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.BrandsClient.GetAsync(System.Guid)">
+            <summary>
+            Get brand details.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.BrandsClient.GetAsync(System.Guid,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Get brand details.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.BrandsClient.UpdateAsync(System.Guid,FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UpdateBrandRequest)">
+            <summary>
+            Update a brand.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.BrandsClient.UpdateAsync(System.Guid,FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UpdateBrandRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Update a brand.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.BrandsClient.DeleteAsync(System.Guid)">
+            <summary>
+            Delete a brand.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.BrandsClient.DeleteAsync(System.Guid,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Delete a brand.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.BrandsClient.CreateAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.CreateBrandRequest)">
+            <summary>
+            Create a new brand.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.BrandsClient.CreateAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.CreateBrandRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Create a new brand.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.BrandsClient.GenerateRandomAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.GenerateRandomBrandRequest)">
+            <summary>
+            Generate a number of random brands.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.BrandsClient.GenerateRandomAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.GenerateRandomBrandRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Generate a number of random brands.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.BrandsClient.DeleteRandomAsync">
+            <summary>
+            Delete the brands generated with the generate-random call.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.BrandsClient.DeleteRandomAsync(System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Delete the brands generated with the generate-random call.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IProductsClient.SearchAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.SearchProductsRequest)">
+            <summary>
+            Search products using available filters.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IProductsClient.SearchAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.SearchProductsRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Search products using available filters.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IProductsClient.GetAsync(System.Guid)">
+            <summary>
+            Get product details.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IProductsClient.GetAsync(System.Guid,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Get product details.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IProductsClient.UpdateAsync(System.Guid,FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UpdateProductRequest)">
+            <summary>
+            Update a product.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IProductsClient.UpdateAsync(System.Guid,FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UpdateProductRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Update a product.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IProductsClient.DeleteAsync(System.Guid)">
+            <summary>
+            Delete a product.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IProductsClient.DeleteAsync(System.Guid,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Delete a product.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IProductsClient.GetDapperAsync(System.Nullable{System.Guid})">
+            <summary>
+            Get product details via dapper.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IProductsClient.GetDapperAsync(System.Nullable{System.Guid},System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Get product details via dapper.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IProductsClient.CreateAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.CreateProductRequest)">
+            <summary>
+            Create a new product.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IProductsClient.CreateAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.CreateProductRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Create a new product.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IProductsClient.ExportAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ExportProductsRequest)">
+            <summary>
+            Export a products.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.IProductsClient.ExportAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ExportProductsRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Export a products.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ProductsClient.SearchAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.SearchProductsRequest)">
+            <summary>
+            Search products using available filters.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ProductsClient.SearchAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.SearchProductsRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Search products using available filters.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ProductsClient.GetAsync(System.Guid)">
+            <summary>
+            Get product details.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ProductsClient.GetAsync(System.Guid,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Get product details.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ProductsClient.UpdateAsync(System.Guid,FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UpdateProductRequest)">
+            <summary>
+            Update a product.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ProductsClient.UpdateAsync(System.Guid,FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UpdateProductRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Update a product.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ProductsClient.DeleteAsync(System.Guid)">
+            <summary>
+            Delete a product.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ProductsClient.DeleteAsync(System.Guid,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Delete a product.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ProductsClient.GetDapperAsync(System.Nullable{System.Guid})">
+            <summary>
+            Get product details via dapper.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ProductsClient.GetDapperAsync(System.Nullable{System.Guid},System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Get product details via dapper.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ProductsClient.CreateAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.CreateProductRequest)">
+            <summary>
+            Create a new product.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ProductsClient.CreateAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.CreateProductRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Create a new product.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ProductsClient.ExportAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ExportProductsRequest)">
+            <summary>
+            Export a products.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ProductsClient.ExportAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ExportProductsRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Export a products.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="P:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.BaseFilter.AdvancedSearch">
+            <summary>
+            Column Wise Search is Supported.
+            </summary>
+        </member>
+        <member name="P:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.BaseFilter.Keyword">
+            <summary>
+            Keyword to Search in All the available columns of the Resource.
+            </summary>
+        </member>
+        <member name="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.CreateCustomerRequest">
+            
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ICustomerClient.GetAsync(System.Guid)">
+            <summary>
+            Get Customer details.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ICustomerClient.GetAsync(System.Guid,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Get Customer details.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ICustomerClient.GetListAsync">
+             <summary>
+             Update a Customer.
+             </summary>
+             <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+            
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ICustomerClient.UpdateAsync(System.Guid,FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.UpdateCustomerRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Update a Customer.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ICustomerClient.DeleteAsync(System.Guid)">
+            <summary>
+            Delete a Customer.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ICustomerClient.DeleteAsync(System.Guid,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Delete a Customer.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ICustomerClient.CreateAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.CreateCustomerRequest)">
+            <summary>
+            Create a new Customer.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ICustomerClient.CreateAsync(FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.CreateCustomerRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>
+            Create a new Customer.
+            </summary>
+            <exception cref="T:FSH.BlazorWebAssembly.Client.Infrastructure.ApiClient.ApiException">A server side error occurred.</exception>
+        </member>
+    </members>
+</doc>
